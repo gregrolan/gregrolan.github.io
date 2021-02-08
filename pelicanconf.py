@@ -3,7 +3,7 @@
 
 AUTHOR = 'Greg Rolan'
 SITENAME = 'AiLECS Lab'
-SITESUBTITLE = 'A collaboraiton between Monash University and the Australian Federal Police'
+SITESUBTITLE = 'A collaboration between Monash University and the Australian Federal Police'
 SITEURL = ''
 
 PATH = 'content'
@@ -50,7 +50,7 @@ MARKDOWN = {
 
 MENUITEMS = (
   ('Home','/'),
-  ('About The Lab','/pages/about/'),
-  ('Contact','/pages/contact/')
+  ('About The Lab','/pages/about.html'),
+  ('Contact','/pages/contact.html')
 )
 
