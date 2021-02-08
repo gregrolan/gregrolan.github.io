@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Greg Rolan'
-SITENAME = 'AiLECS'
+SITENAME = 'AiLECS Lab'
+SITESUBTITLE = 'A collaboraiton between Monash University and the Australian Federal Police'
 SITEURL = ''
 
 PATH = 'content'
@@ -32,3 +33,24 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+DISPLAY_PAGES_ON_MENU = False
+
+DISPLAY_CATEGORIES_ON_MENU = False
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+    'lazy_ol': False 
+}
+
+MENUITEMS = (
+  ('Home','/'),
+  ('About The Lab','/pages/about/'),
+  ('Contact','/pages/contact/')
+)
+
