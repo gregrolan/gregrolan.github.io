@@ -102,6 +102,11 @@ dt {
 /*
  * GR changes.
  */
+
+ a {
+    color: #428BCA
+ }
+
  h1 {
     font-weight: 450;
  }
@@ -114,7 +119,8 @@ dt {
 
 .navbar a {
     font-size: 14px;
-    color: #777;
+    /* color: #777; */
+    color: white;
 }
 
 .nav-container {
@@ -132,6 +138,7 @@ dt {
 a.title {
     font-size: 63px;
 }
+
 
 .tag-cloud {
     font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

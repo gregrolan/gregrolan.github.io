@@ -61,7 +61,7 @@ THEME = './themes/voidy'
 ######################################################################
 SITETAG = "AiLECS Lab"
 
-BOOTSTRAP_STYLESHEET = 'bootstrap-default.css'
+BOOTSTRAP_STYLESHEET = 'bootstrap-flatly.css'
 
 # Extra stylesheets, for bootstrap overrides or additional styling.
 STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css","tagcloud.css")
