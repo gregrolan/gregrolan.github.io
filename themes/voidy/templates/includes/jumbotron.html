@@ -1,8 +1,16 @@
 	<div class="jumbotron" id="overview">
 	  <div class="container">
-		<h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-        {% if SITESUBTITLE %}
-		<p class="lead">{{ SITESUBTITLE }}</p>
-        {% endif %}
+	  	  <div class="row">
+		    <div class="col-2">
+				<img src="/images/ailecs-logo.png"  class="img-fluid" alt="Responsive image" />
+		    </div>
+		    <div class="col">
+				<h1><a class="title" href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+		        {% if SITESUBTITLE %}
+				<p class="lead">{{ SITESUBTITLE }}</p>
+		        {% endif %}
+		    </div>
+		  </div>
 	  </div>
 	</div>
+

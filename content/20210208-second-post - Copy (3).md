@@ -1,9 +1,9 @@
-Title: Another Blog Post
+Title: Another Blog Post 8
 Date: 2021-02-08 16:40
 Modified: 2021-02-08 16:40
 Category: testing
 Tags: bogus
-Slug: Another Blog Post
+Slug: Another Blog Post 8
 Authors: Gregory Rolan
 Summary: A much ado about nothing
 

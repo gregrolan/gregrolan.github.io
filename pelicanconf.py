@@ -3,7 +3,7 @@
 
 AUTHOR = 'Greg Rolan'
 SITENAME = 'AiLECS Lab'
-SITESUBTITLE = 'A collaboration between Monash University and the Australian Federal Police'
+SITESUBTITLE = 'Artificial Intelligence for Law Enforcement and Community Safety<br/> - A collaboration between Monash University and the Australian Federal Police -'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,13 +20,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Site by Pelican', 'https://getpelican.com/'),
-         ('Pelican uses Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         )
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+LINKS = (
+         ('AiLECS @ Monash', 'https://www.monash.edu/it/ailecs'),
+        )
 
 DEFAULT_PAGINATION = 10
 
@@ -50,19 +46,22 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
   ('About The Lab','/pages/about.html'),
   ('Publications','/pages/publications.html'),
+  ('Code','https://github.com/AiLECS'),
   ('Contact','/pages/contact.html')
 )
-
-#THEME = 'notmyidea'
-THEME = './themes/voidy'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["tag_cloud"]
 
+#THEME = 'notmyidea'
+THEME = './themes/voidy'
 
 ######################################################################
 # VOIDY
+######################################################################
 SITETAG = "AiLECS Lab"
+
+BOOTSTRAP_STYLESHEET = 'bootstrap-default.css'
 
 # Extra stylesheets, for bootstrap overrides or additional styling.
 STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css","tagcloud.css")
@@ -74,17 +73,18 @@ CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
 # Default sidebar template. Omit this setting for single column mode without sidebar.
 SIDEBAR = "sidebar.html"
 
-CUSTOM_SIDEBAR_MIDDLES = ("sb_tagcloud.html", )
+CUSTOM_SIDEBAR_MIDDLES = ("sb_tagcloud.html", "sb_links.html")
+
 TAG_CLOUD_STEPS = 4	
 TAG_CLOUD_MAX_ITEMS = 100
 TAG_CLOUD_SORTING = 'random'
 TAG_CLOUD_BADGE = False
 
-SOCIAL = (('Twitter', 'https://twitter.com/username',
-         'fa fa-twitter-square fa-fw fa-lg'),
-        ('LinkedIn', 'http://linkedin-url',
-         'fa fa-linkedin-square fa-fw fa-lg'),
-        ('GitHub', 'http://github.com/username',
-         'fa fa-github-square fa-fw fa-lg'),
-        )
+#SOCIAL = (('Twitter', 'https://twitter.com/username',
+#         'fa fa-twitter-square fa-fw fa-lg'),
+#        ('LinkedIn', 'http://linkedin-url',
+#         'fa fa-linkedin-square fa-fw fa-lg'),
+#        ('GitHub', 'https://github.com/AiLECS',
+#         'fa fa-github-square fa-fw fa-lg'),
+#        )
 ######################################################################

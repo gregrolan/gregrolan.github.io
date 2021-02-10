@@ -98,3 +98,54 @@ p.standfirst {
 dt {
   margin-top: 10px;
 }
+
+/*
+ * GR changes.
+ */
+ h1 {
+    font-weight: 450;
+ }
+
+.navbar.bg-light {
+    border-style: none;
+    padding-left: 0px;
+    background-color: #f8f9fa;
+}
+
+.navbar a {
+    font-size: 14px;
+    color: #777;
+}
+
+.nav-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navjumbo {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+}
+
+a.title {
+    font-size: 63px;
+}
+
+.tag-cloud {
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.article-header-info p, .lead {
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
